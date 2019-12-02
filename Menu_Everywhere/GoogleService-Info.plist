@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>349608689315-a80am8n0u1379jq4fo004g9s7svr530j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.349608689315-a80am8n0u1379jq4fo004g9s7svr530j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>349608689315-d58rei6bd55sm1m52gjc3pkrb4thlqlg.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDr7lk7NkkDSdppr9OLzvqX6rjGgEJTDzA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>349608689315</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mx.jpv.menueverywhere</string>
+	<key>PROJECT_ID</key>
+	<string>menuseverywhere</string>
+	<key>STORAGE_BUCKET</key>
+	<string>menuseverywhere.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:349608689315:ios:9050f49604be2f6c394916</string>
+	<key>DATABASE_URL</key>
+	<string>https://menuseverywhere.firebaseio.com</string>
+</dict>
+</plist>

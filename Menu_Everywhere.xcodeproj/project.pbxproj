@@ -14,13 +14,14 @@
 		DF15D6B7238A09410079ED62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF15D6B5238A09410079ED62 /* Main.storyboard */; };
 		DF15D6B9238A09420079ED62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF15D6B8238A09420079ED62 /* Assets.xcassets */; };
 		DF15D6BC238A09420079ED62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF15D6BA238A09420079ED62 /* LaunchScreen.storyboard */; };
-		DF15D6C4238A09720079ED62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF15D6C3238A09720079ED62 /* GoogleService-Info.plist */; };
 		DFA19C74238A25ED00D20982 /* scan.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C73238A25ED00D20982 /* scan.png */; };
 		DFA19C7C238A289900D20982 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C7B238A289900D20982 /* settings.png */; };
 		DFA19C7E238A2FB600D20982 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA19C7D238A2FB600D20982 /* AVFoundation.framework */; };
 		DFA19C80238A2FF600D20982 /* QRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C7F238A2FF600D20982 /* QRVC.swift */; };
 		DFA19C82238B027D00D20982 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C81238B027D00D20982 /* MenuVC.swift */; };
 		DFA19C84238B15FE00D20982 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C83238B15FE00D20982 /* MenuTVC.swift */; };
+		DFBD6F5D23958E28001704BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFBD6F5C23958E28001704BC /* GoogleService-Info.plist */; };
+		DFBD6F5F23959071001704BC /* ProductoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBD6F5E23959071001704BC /* ProductoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +35,14 @@
 		DF15D6B8238A09420079ED62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF15D6BB238A09420079ED62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF15D6BD238A09420079ED62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF15D6C3238A09720079ED62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DFA19C73238A25ED00D20982 /* scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan.png; sourceTree = "<group>"; };
 		DFA19C7B238A289900D20982 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		DFA19C7D238A2FB600D20982 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DFA19C7F238A2FF600D20982 /* QRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRVC.swift; sourceTree = "<group>"; };
 		DFA19C81238B027D00D20982 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		DFA19C83238B15FE00D20982 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
+		DFBD6F5C23958E28001704BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFBD6F5E23959071001704BC /* ProductoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoVC.swift; sourceTree = "<group>"; };
 		E6AA2E5864E160BDD32133D5 /* Pods-Menu_Everywhere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Menu_Everywhere.debug.xcconfig"; path = "Target Support Files/Pods-Menu_Everywhere/Pods-Menu_Everywhere.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +98,8 @@
 		DF15D6AE238A09410079ED62 /* Menu_Everywhere */ = {
 			isa = PBXGroup;
 			children = (
+				DFBD6F5C23958E28001704BC /* GoogleService-Info.plist */,
 				DFA19C7A238A278100D20982 /* imagenes */,
-				DF15D6C3238A09720079ED62 /* GoogleService-Info.plist */,
 				DF15D6AF238A09410079ED62 /* AppDelegate.swift */,
 				DF15D6B1238A09410079ED62 /* SceneDelegate.swift */,
 				DF15D6B3238A09410079ED62 /* ViewController.swift */,
@@ -108,6 +110,7 @@
 				DFA19C7F238A2FF600D20982 /* QRVC.swift */,
 				DFA19C81238B027D00D20982 /* MenuVC.swift */,
 				DFA19C83238B15FE00D20982 /* MenuTVC.swift */,
+				DFBD6F5E23959071001704BC /* ProductoVC.swift */,
 			);
 			path = Menu_Everywhere;
 			sourceTree = "<group>";
@@ -184,9 +187,9 @@
 				DFA19C7C238A289900D20982 /* settings.png in Resources */,
 				DF15D6BC238A09420079ED62 /* LaunchScreen.storyboard in Resources */,
 				DFA19C74238A25ED00D20982 /* scan.png in Resources */,
-				DF15D6C4238A09720079ED62 /* GoogleService-Info.plist in Resources */,
 				DF15D6B9238A09420079ED62 /* Assets.xcassets in Resources */,
 				DF15D6B7238A09410079ED62 /* Main.storyboard in Resources */,
+				DFBD6F5D23958E28001704BC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +244,7 @@
 			files = (
 				DFA19C84238B15FE00D20982 /* MenuTVC.swift in Sources */,
 				DF15D6B4238A09410079ED62 /* ViewController.swift in Sources */,
+				DFBD6F5F23959071001704BC /* ProductoVC.swift in Sources */,
 				DFA19C80238A2FF600D20982 /* QRVC.swift in Sources */,
 				DF15D6B0238A09410079ED62 /* AppDelegate.swift in Sources */,
 				DF15D6B2238A09410079ED62 /* SceneDelegate.swift in Sources */,
